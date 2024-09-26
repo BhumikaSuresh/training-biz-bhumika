@@ -1,329 +1,474 @@
-    1  2024-09-26 07:35:01 ls ~/.ssh
-    2  2024-09-26 07:35:01 exit
-    3  2024-09-26 07:35:01 cd .ssh
-    4  2024-09-26 07:35:01 ls -a
-    5  2024-09-26 07:35:01 mkdir .ssh
-    6  2024-09-26 07:35:01 touch authorized_keys
-    7  2024-09-26 07:35:01 ls -a
-    8  2024-09-26 07:35:01 cd .ssh
-    9  2024-09-26 07:35:01 touch authorized_keys
-   10  2024-09-26 07:35:01 ls -a
-   11  2024-09-26 07:35:01 vi authorize-keys
-   12  2024-09-26 07:35:01 exit
-   13  2024-09-26 07:35:01 cd .ssh
-   14  2024-09-26 07:35:01 ls -a
-   15  2024-09-26 07:35:01 vi authorized-keys
-   16  2024-09-26 07:35:01 cat authorized-keys
-   17  2024-09-26 07:35:01 exit
-   18  2024-09-26 07:35:01 ssh bhumika@13.60.157.111
-   19  2024-09-26 07:35:01 cd .ssh
-   20  2024-09-26 07:35:01 ls
-   21  2024-09-26 07:35:01 ls -a
-   22  2024-09-26 07:35:01 cd ..
-   23  2024-09-26 07:35:01 ls
-   24  2024-09-26 07:35:01 ls -a
-   25  2024-09-26 07:35:01 exit
-   26  2024-09-26 07:35:01 cd .ssh
-   27  2024-09-26 07:35:01 ls -a
-   28  2024-09-26 07:35:01 vi authorized_keys
-   29  2024-09-26 07:35:01 exit
-   30  2024-09-26 07:35:01 sudo -i
-   31  2024-09-26 07:35:01 cd ~
-   32  2024-09-26 07:35:01 ls -a
-   33  2024-09-26 07:35:01 mkdir assignment
-   34  2024-09-26 07:35:01 cd assignment
-   35  2024-09-26 07:35:01 vi code.sh
-   36  2024-09-26 07:35:01 vi file1.txt
-   37  2024-09-26 07:35:01 vi file2.txt
-   38  2024-09-26 07:35:01 ls -a
-   39  2024-09-26 07:35:01 ./code1.sh file1 file2
-   40  2024-09-26 07:35:01 ./code.sh file1 file2
-   41  2024-09-26 07:35:01 chmod +x code.sh
-   42  2024-09-26 07:35:01 ./code1.sh file1.txt file2.txt
-   43  2024-09-26 07:35:01 ./code.sh file1.txt file2.txt
-   44  2024-09-26 07:35:01 vi file2.txt
-   45  2024-09-26 07:35:01 cat code.sh
-   46  2024-09-26 07:35:01 vi code
-   47  2024-09-26 07:35:01 vi code.sh
-   48  2024-09-26 07:35:01 cd assignment
-   49  2024-09-26 07:35:01 cat file.txt
-   50  2024-09-26 07:35:01 cat file2.txt
-   51  2024-09-26 07:35:01 vi code.sh
-   52  2024-09-26 07:35:01 ./code1.sh file1.txt file1.txt
-   53  2024-09-26 07:35:01 ./code.sh file1.txt file1.txt
-   54  2024-09-26 07:35:01 ./code.sh file1.txt
-   55  2024-09-26 07:35:01 ./code.sh file1.txt file2.txt
-   56  2024-09-26 07:35:01 cat code.sh
-   57  2024-09-26 07:35:01 ls
-   58  2024-09-26 07:35:01 rm code
-   59  2024-09-26 07:35:01 ls
-   60  2024-09-26 07:35:01 ls -a
-   61  2024-09-26 07:35:01 vi code.sh
-   62  2024-09-26 07:35:01 ./code.sh file1.txt file2.txt
-   63  2024-09-26 07:35:01 cat file2.txt
-   64  2024-09-26 07:35:01 vi file1.txt
-   65  2024-09-26 07:35:01 ./code.sh file1.txt file2.txt
-   66  2024-09-26 07:35:01 cat file1.txt
-   67  2024-09-26 07:35:01 cat file2.txt
-   68  2024-09-26 07:35:01 rm file1.txt
-   69  2024-09-26 07:35:01 ./code.sh file1.txt file2.txt
-   70  2024-09-26 07:35:01 vi file1.txt
-   71  2024-09-26 07:35:01 ./code.sh file1.txt file2.txt
-   72  2024-09-26 07:35:01 vi file1.txt
-   73  2024-09-26 07:35:01 ./code.sh file1.txt file2.txt
-   74  2024-09-26 07:35:01 vi code.sh
-   75  2024-09-26 07:35:01 ./code.sh file1.txt file2.txt file1.txt
-   76  2024-09-26 07:35:01 vi code.sh
-   77  2024-09-26 07:35:01 ./code.sh file1.txt file2.txt
-   78  2024-09-26 07:35:01 vi code.sh
-   79  2024-09-26 07:35:01 ./code.sh file1.txt file1.txt
-   80  2024-09-26 07:35:01 cat file1.txt
-   81  2024-09-26 07:35:01 cat file2.txt
-   82  2024-09-26 07:35:01 cat code.sh
-   83  2024-09-26 07:35:01 exit
-   84  2024-09-26 07:35:01 history
-   85  2024-09-26 07:35:01 ls
-   86  2024-09-26 07:35:01 ls -a
-   87  2024-09-26 07:35:01 cd .bash_history
-   88  2024-09-26 07:35:01 ls
-   89  2024-09-26 07:35:01 exit
-   90  2024-09-26 07:35:01 ./code.sh file1.txt file1.txt
-   91  2024-09-26 07:35:01 cd assignment
-   92  2024-09-26 07:35:01 ./code.sh file1.txt file1.txt
-   93  2024-09-26 07:35:01 ./code.sh file1.txt file2.txt
-   94  2024-09-26 07:35:01 cd assignment
-   95  2024-09-26 07:35:01 ./code.sh file1.txt file3.txt
-   96  2024-09-26 07:35:01 cat file3.txt
-   97  2024-09-26 07:35:01 rm file2.txt
-   98  2024-09-26 07:35:01 ./code.sh file1.txt file.txt
-   99  2024-09-26 07:35:01 ls
-  100  2024-09-26 07:35:01 rm file3.txt
-  101  2024-09-26 07:35:01 rm file.txt
-  102  2024-09-26 07:35:01 ls
-  103  2024-09-26 07:35:01 vi code.sh
-  104  2024-09-26 07:35:01 ./code.sh file1.txt file.txt
-  105  2024-09-26 07:35:01 cat code.sh
-  106  2024-09-26 07:35:01 EXIT
-  107  2024-09-26 07:35:01 \exit
-  108  2024-09-26 07:35:01 exit
-  109  2024-09-26 07:35:01 sudo -i
-  110  2024-09-26 07:35:01 exit
-  111  2024-09-26 07:35:01 sudo yum install git
-  112  2024-09-26 07:35:01 git clone https://github.com/BhumikaSuresh/training-biz-bhumika.git
-  113  2024-09-26 07:35:01 git status
-  114  2024-09-26 07:35:01 .git
-  115  2024-09-26 07:35:01 git -v
-  116  2024-09-26 07:35:01 mkdir cornjob
-  117  2024-09-26 07:35:01 ls
-  118  2024-09-26 07:35:01 ls -a
-  119  2024-09-26 07:35:01 cd cornjob
-  120  2024-09-26 07:35:01 touch corn.sh
-  121  2024-09-26 07:35:01 ls -a-
-  122  2024-09-26 07:35:01 ls -a
-  123  2024-09-26 07:35:01 vi corn.sh
-  124  2024-09-26 07:35:01 chmod corn.sh
-  125  2024-09-26 07:35:01 chmod +x ~/cron.sh
-  126  2024-09-26 07:35:01 chmod cron.sh
-  127  2024-09-26 07:35:01 chmod +x cornjob/corn.sh
-  128  2024-09-26 07:35:01 chmod +x ~/cornjob/corn.sh
-  129  2024-09-26 07:35:01 cd..
-  130  2024-09-26 07:35:01 ..cd
-  131  2024-09-26 07:35:01 cd.
-  132  2024-09-26 07:35:01 cd..
-  133  2024-09-26 07:35:01 exit
-  134  2024-09-26 07:35:01 git clone https://github.com/BhumikaSuresh/training-biz-bhumika.git ~/cron-history
-  135  2024-09-26 07:35:01 cd ~/cron-history
-  136  2024-09-26 07:35:01 ls
-  137  2024-09-26 07:35:01 crontab -e
-  138  2024-09-26 07:35:01 exit
-  139  2024-09-26 07:35:01 crontab -e
-  140  2024-09-26 07:35:01 vi corn.sh
-  141  2024-09-26 07:35:01 tail -f ~/cron-history/cronjob.log
-  142  2024-09-26 07:35:01 ls
-  143  2024-09-26 07:35:01 cd cron-history/
-  144  2024-09-26 07:35:01 ls
-  145  2024-09-26 07:35:01 ls -a
-  146  2024-09-26 07:35:01 exit
-  147  2024-09-26 07:35:01 ls -a
-  148  2024-09-26 07:35:01 cd cornjob/
-  149  2024-09-26 07:35:01 ls -a
-  150  2024-09-26 07:35:01 vi corn.sh
-  151  2024-09-26 07:35:01 crontab -e
-  152  2024-09-26 07:35:01 tail -f ~/cron-history/cronjob.log
-  153  2024-09-26 07:35:01 exit
-  154  2024-09-26 07:35:01 ls -a
-  155  2024-09-26 07:35:01 cd cron-history
-  156  2024-09-26 07:35:01 ls -a
-  157  2024-09-26 07:35:01 tail -f ~/cron-history/cronjob.log
-  158  2024-09-26 07:35:01 cd..
-  159  2024-09-26 07:35:01 cd ..
-  160  2024-09-26 07:35:01 touch ~/cron-history/cronjob.log
-  161  2024-09-26 07:35:01 tail -f ~/cron-history/cronjob.log
-  162  2024-09-26 07:35:01 ls -a
-  163  2024-09-26 07:35:01 rm cornjob
-  164  2024-09-26 07:35:01 rmdir cornjob
-  165  2024-09-26 07:35:01 rm -r cornjob
-  166  2024-09-26 07:35:01 rm -r cron-history
-  167  2024-09-26 07:35:01 rm -r corn.sh
-  168  2024-09-26 07:35:01 rm -r training-biz-bhumika
-  169  2024-09-26 07:35:01 ls -a
-  170  2024-09-26 07:35:01 git clone https://github.com/BhumikaSuresh/training-biz-bhumika.git
-  171  2024-09-26 07:35:01 ls -a
-  172  2024-09-26 07:35:01 touch cron_script.sh
-  173  2024-09-26 07:35:01 ls
-  174  2024-09-26 07:35:01 ls -a
-  175  2024-09-26 07:35:01 vi cron_script.sh 
-  176  2024-09-26 07:35:01 chmod +x ~/cron_script.sh
-  177  2024-09-26 07:35:01 crontab -e
-  178  2024-09-26 07:35:01 vi cron_script.sh 
-  179  2024-09-26 07:35:01 tail -f ~/cron-history/cronjob.log
-  180  2024-09-26 07:35:01 grep CRON /var/log/syslog
-  181  2024-09-26 07:35:01 touch ~/cron-history/cronjob.log
-  182  2024-09-26 07:35:01 ls
-  183  2024-09-26 07:35:01 touch ~/training-biz-bhumika/cronjob.log
-  184  2024-09-26 07:35:01 tail -f ~/training-biz-bhumika/cronjob.log
-  185  2024-09-26 07:35:01 vi cron_script.sh 
-  186  2024-09-26 07:35:01 tail -f ~/training-biz-bhumika/cronjob.log
-  187  2024-09-26 07:35:01 crontab -e
-  188  2024-09-26 07:35:01 tail -f ~/training-biz-bhumika/cronjob.log
-  189  2024-09-26 07:35:01 cd training-biz-bhumika
-  190  2024-09-26 07:35:01 cat cronjob.log 
-  191  2024-09-26 07:35:01 cd ..
-  192  2024-09-26 07:35:01 cat cron_script.sh
-  193  2024-09-26 07:35:01 cd training-biz-bhumika
-  194  2024-09-26 07:35:01 ls
-  195  2024-09-26 07:35:01 cat cronjob.log 
-  196  2024-09-26 07:35:01 cd ..
-  197  2024-09-26 07:35:01 ssh -T git@github.com
-  198  2024-09-26 07:35:01 ssh-keygen -t ed25519 -C "your_email@example.com"
-  199  2024-09-26 07:35:01 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-  200  2024-09-26 07:35:01 eval "$(ssh-agent -s)"
-  201  2024-09-26 07:35:01 ~/.ssh/id_rsa if you used RSA
-  202  2024-09-26 07:35:01  ~/.ssh/id_rsa
-  203  2024-09-26 07:35:01 ls -l ~/.ssh
-  204  2024-09-26 07:35:01 ls
-  205  2024-09-26 07:35:01 cd training-biz-bhumika/
-  206  2024-09-26 07:35:01 ls
-  207  2024-09-26 07:35:01 cat co
-  208  2024-09-26 07:35:01 cat cronjob.log 
-  209  2024-09-26 07:35:01 ls -l ~/.ssh
-  210  2024-09-26 07:35:01 cat ~/.ssh/id_rsa.pub
-  211  2024-09-26 07:35:01 cd ..
-  212  2024-09-26 07:35:01 ssh -T git@github.com
-  213  2024-09-26 07:35:01 git remote -v
-  214  2024-09-26 07:35:01 ls
-  215  2024-09-26 07:35:01 ls -a
-  216  2024-09-26 07:35:01 cd ~/training-biz-bhumika
-  217  2024-09-26 07:35:01 git remote -v
-  218  2024-09-26 07:35:01 bash ~/cron_script.sh
-  219  2024-09-26 07:35:01 git config --global user.name "Bhumika Suresh"
-  220  2024-09-26 07:35:01 git config --global user.email "bhumikasuresh003@gmail.com"
-  221  2024-09-26 07:35:01 git remote -v
-  222  2024-09-26 07:35:01 git remote set-url origin git@github.com:BhumikaSuresh/training-biz-bhumika.git
-  223  2024-09-26 07:35:01 bash ~/cron_script.sh
-  224  2024-09-26 07:35:01 ls
-  225  2024-09-26 07:35:01 cat cronjob.log 
-  226  2024-09-26 07:35:01 cd ..
-  227  2024-09-26 07:35:01 ls
-  228  2024-09-26 07:35:01 cd cron_script.sh 
-  229  2024-09-26 07:35:01 cat cron_script.sh 
-  230  2024-09-26 07:35:01 crontab -e
-  231  2024-09-26 07:35:01 cd training-biz-bhumika/
-  232  2024-09-26 07:35:01 cat cronjob.log 
-  233  2024-09-26 07:35:01 vi cronjob.log 
-  234  2024-09-26 07:35:01 crontab -e
-  235  2024-09-26 07:35:01 ls
-  236  2024-09-26 07:35:01 crontab -e
-  237  2024-09-26 07:35:01 ls
-  238  2024-09-26 07:35:01 cat cronjob.log 
-  239  2024-09-26 07:35:01 exit
-  240  2024-09-26 07:35:01 cd training-biz-bhumika/
-  241  2024-09-26 07:35:01 ls
-  242  2024-09-26 07:35:01 cat cronjob.log 
-  243  2024-09-26 07:35:01 rm cronjob.log 
-  244  2024-09-26 07:35:01 la
-  245  2024-09-26 07:35:01 ls
-  246  2024-09-26 07:35:01 crontab -e
-  247  2024-09-26 07:35:01 ls
-  248  2024-09-26 07:35:01 bash ~/cron_script.sh
-  249  2024-09-26 07:35:01 ls
-  250  2024-09-26 07:35:01 cat cronjob.log 
-  251  2024-09-26 07:35:01 ls
-  252  2024-09-26 07:35:01 cat cronjob.log 
-  253  2024-09-26 07:35:01 git pull origin main
-  254  2024-09-26 07:35:01  git config pull.rebase false
-  255  2024-09-26 07:35:01 ls
-  256  2024-09-26 07:35:01 cat cronjob.log 
-  257  2024-09-26 07:35:01 git pull --no-rebase origin main
-  258  2024-09-26 07:35:01 git push origin main
-  259  2024-09-26 07:35:01  git pull origin main
-  260  2024-09-26 07:35:01 cd ..
-  261  2024-09-26 07:35:01 ls
-  262  2024-09-26 07:35:01 rmdir cron_script.sh 
-  263  2024-09-26 07:35:01 rm cron_script.sh 
-  264  2024-09-26 07:35:01 rm training-biz-bhumika/
-  265  2024-09-26 07:35:01 rmdir training-biz-bhumika/
-  266  2024-09-26 07:35:01 rm -m training-biz-bhumika/
-  267  2024-09-26 07:35:01 rm -r training-biz-bhumika/
-  268  2024-09-26 07:35:01 y
-  269  2024-09-26 07:35:01 ls -a
-  270  2024-09-26 07:35:01 touch cron_shell_script.sh
-  271  2024-09-26 07:35:01 vi cr
-  272  2024-09-26 07:35:01 ls
-  273  2024-09-26 07:35:01 rm cr
-  274  2024-09-26 07:35:01 vi cron_shell_script.sh 
-  275  2024-09-26 07:35:01 chmod +x ~/cron_script.sh
-  276  2024-09-26 07:35:01 chmod +x ~/cron_shell_script.sh
-  277  2024-09-26 07:35:01 git clone https://github.com/BhumikaSuresh/training-biz-bhumika.git
-  278  2024-09-26 07:35:01 crontab -e
-  279  2024-09-26 07:35:01 vi cron_shell_script.sh 
-  280  2024-09-26 07:35:01 tail -f ~/training-biz-bhumika/cronjob.log
-  281  2024-09-26 07:35:01 ls
-  282  2024-09-26 07:35:01 cd training-biz-bhumika/
-  283  2024-09-26 07:35:01 ls
-  284  2024-09-26 07:35:01 touch cronjob.log
-  285  2024-09-26 07:35:01 ls
-  286  2024-09-26 07:35:01 tail -f ~/training-biz-bhumika/cronjob.log
-  287  2024-09-26 07:35:01 ls
-  288  2024-09-26 07:35:01 cat cronjob.log 
-  289  2024-09-26 07:35:01 grep CRON /var/log/syslog
-  290  2024-09-26 07:35:01 ls
-  291  2024-09-26 07:35:01 cat cronjob.log 
-  292  2024-09-26 07:35:01 vi cronjob.log 
-  293  2024-09-26 07:35:01 bash ~/cron_shell_script.sh
-  294  2024-09-26 07:35:01 git remote -v
-  295  2024-09-26 07:35:01 git remote set-url origin git@github.com:BhumikaSuresh/training-biz-bhumika.git
-  296  2024-09-26 07:35:01 git remote -v
-  297  2024-09-26 07:35:01 bash ~/cron_shell_script.sh
-  298  2024-09-26 07:35:01 ls
-  299  2024-09-26 07:35:01 cat cronjob.log 
-  300  2024-09-26 07:35:01 ls
-  301  2024-09-26 07:35:01 cat cronjob.log 
-  302  2024-09-26 07:35:01 crontab -e
-  303  2024-09-26 07:35:01 cat cronjob.log 
-  304  2024-09-26 07:35:01 ls
-  305  2024-09-26 07:35:01 cd ..
-  306  2024-09-26 07:35:01 ls
-  307  2024-09-26 07:35:01 cat cron_shell_script.sh 
-  308  2024-09-26 07:35:01 cd training-biz-bhumika/
-  309  2024-09-26 07:35:01 cat cronjob.log 
-  310  2024-09-26 07:35:01 cd ..
-  311  2024-09-26 07:35:01 ls
-  312  2024-09-26 07:35:01 crontab -e
-  313  2024-09-26 07:35:01 cd training-biz-bhumika/
-  314  2024-09-26 07:35:01 ls
-  315  2024-09-26 07:35:01 cat cronjob.log 
-  316  2024-09-26 07:35:01 cd ..
-  317  2024-09-26 07:35:01 vi cron_shell_script.sh 
-  318  2024-09-26 07:35:01 chmod +x ~/cron_shell_script.sh
-  319  2024-09-26 07:35:01 ls 
-  320  2024-09-26 07:35:01 cd training-biz-bhumika/
-  321  2024-09-26 07:35:01 ls
-  322  2024-09-26 07:35:01 cat cronjob.log 
-  323  2024-09-26 07:35:01 bash ~/cron_shell_script.sh
-  324  2024-09-26 07:35:01 cd ..
-  325  2024-09-26 07:35:01 bash ~/cron_shell_script.sh
-  326  2024-09-26 07:35:01 ls
-  327  2024-09-26 07:35:01 cd training-biz-bhumika/
-  328  2024-09-26 07:35:01 ls
-  329  2024-09-26 07:35:01 cat cronjob.log 
+    1  2024-09-26 07:55:02 ls ~/.ssh
+    2  2024-09-26 07:55:02 exit
+    3  2024-09-26 07:55:02 cd .ssh
+    4  2024-09-26 07:55:02 ls -a
+    5  2024-09-26 07:55:02 mkdir .ssh
+    6  2024-09-26 07:55:02 touch authorized_keys
+    7  2024-09-26 07:55:02 ls -a
+    8  2024-09-26 07:55:02 cd .ssh
+    9  2024-09-26 07:55:02 touch authorized_keys
+   10  2024-09-26 07:55:02 ls -a
+   11  2024-09-26 07:55:02 vi authorize-keys
+   12  2024-09-26 07:55:02 exit
+   13  2024-09-26 07:55:02 cd .ssh
+   14  2024-09-26 07:55:02 ls -a
+   15  2024-09-26 07:55:02 vi authorized-keys
+   16  2024-09-26 07:55:02 cat authorized-keys
+   17  2024-09-26 07:55:02 exit
+   18  2024-09-26 07:55:02 ssh bhumika@13.60.157.111
+   19  2024-09-26 07:55:02 cd .ssh
+   20  2024-09-26 07:55:02 ls
+   21  2024-09-26 07:55:02 ls -a
+   22  2024-09-26 07:55:02 cd ..
+   23  2024-09-26 07:55:02 ls
+   24  2024-09-26 07:55:02 ls -a
+   25  2024-09-26 07:55:02 exit
+   26  2024-09-26 07:55:02 cd .ssh
+   27  2024-09-26 07:55:02 ls -a
+   28  2024-09-26 07:55:02 vi authorized_keys
+   29  2024-09-26 07:55:02 exit
+   30  2024-09-26 07:55:02 sudo -i
+   31  2024-09-26 07:55:02 cd ~
+   32  2024-09-26 07:55:02 ls -a
+   33  2024-09-26 07:55:02 mkdir assignment
+   34  2024-09-26 07:55:02 cd assignment
+   35  2024-09-26 07:55:02 vi code.sh
+   36  2024-09-26 07:55:02 vi file1.txt
+   37  2024-09-26 07:55:02 vi file2.txt
+   38  2024-09-26 07:55:02 ls -a
+   39  2024-09-26 07:55:02 ./code1.sh file1 file2
+   40  2024-09-26 07:55:02 ./code.sh file1 file2
+   41  2024-09-26 07:55:02 chmod +x code.sh
+   42  2024-09-26 07:55:02 ./code1.sh file1.txt file2.txt
+   43  2024-09-26 07:55:02 ./code.sh file1.txt file2.txt
+   44  2024-09-26 07:55:02 vi file2.txt
+   45  2024-09-26 07:55:02 cat code.sh
+   46  2024-09-26 07:55:02 vi code
+   47  2024-09-26 07:55:02 vi code.sh
+   48  2024-09-26 07:55:02 cd assignment
+   49  2024-09-26 07:55:02 cat file.txt
+   50  2024-09-26 07:55:02 cat file2.txt
+   51  2024-09-26 07:55:02 vi code.sh
+   52  2024-09-26 07:55:02 ./code1.sh file1.txt file1.txt
+   53  2024-09-26 07:55:02 ./code.sh file1.txt file1.txt
+   54  2024-09-26 07:55:02 ./code.sh file1.txt
+   55  2024-09-26 07:55:02 ./code.sh file1.txt file2.txt
+   56  2024-09-26 07:55:02 cat code.sh
+   57  2024-09-26 07:55:02 ls
+   58  2024-09-26 07:55:02 rm code
+   59  2024-09-26 07:55:02 ls
+   60  2024-09-26 07:55:02 ls -a
+   61  2024-09-26 07:55:02 vi code.sh
+   62  2024-09-26 07:55:02 ./code.sh file1.txt file2.txt
+   63  2024-09-26 07:55:02 cat file2.txt
+   64  2024-09-26 07:55:02 vi file1.txt
+   65  2024-09-26 07:55:02 ./code.sh file1.txt file2.txt
+   66  2024-09-26 07:55:02 cat file1.txt
+   67  2024-09-26 07:55:02 cat file2.txt
+   68  2024-09-26 07:55:02 rm file1.txt
+   69  2024-09-26 07:55:02 ./code.sh file1.txt file2.txt
+   70  2024-09-26 07:55:02 vi file1.txt
+   71  2024-09-26 07:55:02 ./code.sh file1.txt file2.txt
+   72  2024-09-26 07:55:02 vi file1.txt
+   73  2024-09-26 07:55:02 ./code.sh file1.txt file2.txt
+   74  2024-09-26 07:55:02 vi code.sh
+   75  2024-09-26 07:55:02 ./code.sh file1.txt file2.txt file1.txt
+   76  2024-09-26 07:55:02 vi code.sh
+   77  2024-09-26 07:55:02 ./code.sh file1.txt file2.txt
+   78  2024-09-26 07:55:02 vi code.sh
+   79  2024-09-26 07:55:02 ./code.sh file1.txt file1.txt
+   80  2024-09-26 07:55:02 cat file1.txt
+   81  2024-09-26 07:55:02 cat file2.txt
+   82  2024-09-26 07:55:02 cat code.sh
+   83  2024-09-26 07:55:02 exit
+   84  2024-09-26 07:55:02 history
+   85  2024-09-26 07:55:02 ls
+   86  2024-09-26 07:55:02 ls -a
+   87  2024-09-26 07:55:02 cd .bash_history
+   88  2024-09-26 07:55:02 ls
+   89  2024-09-26 07:55:02 exit
+   90  2024-09-26 07:55:02 ./code.sh file1.txt file1.txt
+   91  2024-09-26 07:55:02 cd assignment
+   92  2024-09-26 07:55:02 ./code.sh file1.txt file1.txt
+   93  2024-09-26 07:55:02 ./code.sh file1.txt file2.txt
+   94  2024-09-26 07:55:02 cd assignment
+   95  2024-09-26 07:55:02 ./code.sh file1.txt file3.txt
+   96  2024-09-26 07:55:02 cat file3.txt
+   97  2024-09-26 07:55:02 rm file2.txt
+   98  2024-09-26 07:55:02 ./code.sh file1.txt file.txt
+   99  2024-09-26 07:55:02 ls
+  100  2024-09-26 07:55:02 rm file3.txt
+  101  2024-09-26 07:55:02 rm file.txt
+  102  2024-09-26 07:55:02 ls
+  103  2024-09-26 07:55:02 vi code.sh
+  104  2024-09-26 07:55:02 ./code.sh file1.txt file.txt
+  105  2024-09-26 07:55:02 cat code.sh
+  106  2024-09-26 07:55:02 EXIT
+  107  2024-09-26 07:55:02 \exit
+  108  2024-09-26 07:55:02 exit
+  109  2024-09-26 07:55:02 sudo -i
+  110  2024-09-26 07:55:02 exit
+  111  2024-09-26 07:55:02 sudo yum install git
+  112  2024-09-26 07:55:02 git clone https://github.com/BhumikaSuresh/training-biz-bhumika.git
+  113  2024-09-26 07:55:02 git status
+  114  2024-09-26 07:55:02 .git
+  115  2024-09-26 07:55:02 git -v
+  116  2024-09-26 07:55:02 mkdir cornjob
+  117  2024-09-26 07:55:02 ls
+  118  2024-09-26 07:55:02 ls -a
+  119  2024-09-26 07:55:02 cd cornjob
+  120  2024-09-26 07:55:02 touch corn.sh
+  121  2024-09-26 07:55:02 ls -a-
+  122  2024-09-26 07:55:02 ls -a
+  123  2024-09-26 07:55:02 vi corn.sh
+  124  2024-09-26 07:55:02 chmod corn.sh
+  125  2024-09-26 07:55:02 chmod +x ~/cron.sh
+  126  2024-09-26 07:55:02 chmod cron.sh
+  127  2024-09-26 07:55:02 chmod +x cornjob/corn.sh
+  128  2024-09-26 07:55:02 chmod +x ~/cornjob/corn.sh
+  129  2024-09-26 07:55:02 cd..
+  130  2024-09-26 07:55:02 ..cd
+  131  2024-09-26 07:55:02 cd.
+  132  2024-09-26 07:55:02 cd..
+  133  2024-09-26 07:55:02 exit
+  134  2024-09-26 07:55:02 git clone https://github.com/BhumikaSuresh/training-biz-bhumika.git ~/cron-history
+  135  2024-09-26 07:55:02 cd ~/cron-history
+  136  2024-09-26 07:55:02 ls
+  137  2024-09-26 07:55:02 crontab -e
+  138  2024-09-26 07:55:02 exit
+  139  2024-09-26 07:55:02 crontab -e
+  140  2024-09-26 07:55:02 vi corn.sh
+  141  2024-09-26 07:55:02 tail -f ~/cron-history/cronjob.log
+  142  2024-09-26 07:55:02 ls
+  143  2024-09-26 07:55:02 cd cron-history/
+  144  2024-09-26 07:55:02 ls
+  145  2024-09-26 07:55:02 ls -a
+  146  2024-09-26 07:55:02 exit
+  147  2024-09-26 07:55:02 ls -a
+  148  2024-09-26 07:55:02 cd cornjob/
+  149  2024-09-26 07:55:02 ls -a
+  150  2024-09-26 07:55:02 vi corn.sh
+  151  2024-09-26 07:55:02 crontab -e
+  152  2024-09-26 07:55:02 tail -f ~/cron-history/cronjob.log
+  153  2024-09-26 07:55:02 exit
+  154  2024-09-26 07:55:02 ls -a
+  155  2024-09-26 07:55:02 cd cron-history
+  156  2024-09-26 07:55:02 ls -a
+  157  2024-09-26 07:55:02 tail -f ~/cron-history/cronjob.log
+  158  2024-09-26 07:55:02 cd..
+  159  2024-09-26 07:55:02 cd ..
+  160  2024-09-26 07:55:02 touch ~/cron-history/cronjob.log
+  161  2024-09-26 07:55:02 tail -f ~/cron-history/cronjob.log
+  162  2024-09-26 07:55:02 ls -a
+  163  2024-09-26 07:55:02 rm cornjob
+  164  2024-09-26 07:55:02 rmdir cornjob
+  165  2024-09-26 07:55:02 rm -r cornjob
+  166  2024-09-26 07:55:02 rm -r cron-history
+  167  2024-09-26 07:55:02 rm -r corn.sh
+  168  2024-09-26 07:55:02 rm -r training-biz-bhumika
+  169  2024-09-26 07:55:02 ls -a
+  170  2024-09-26 07:55:02 git clone https://github.com/BhumikaSuresh/training-biz-bhumika.git
+  171  2024-09-26 07:55:02 ls -a
+  172  2024-09-26 07:55:02 touch cron_script.sh
+  173  2024-09-26 07:55:02 ls
+  174  2024-09-26 07:55:02 ls -a
+  175  2024-09-26 07:55:02 vi cron_script.sh 
+  176  2024-09-26 07:55:02 chmod +x ~/cron_script.sh
+  177  2024-09-26 07:55:02 crontab -e
+  178  2024-09-26 07:55:02 vi cron_script.sh 
+  179  2024-09-26 07:55:02 tail -f ~/cron-history/cronjob.log
+  180  2024-09-26 07:55:02 grep CRON /var/log/syslog
+  181  2024-09-26 07:55:02 touch ~/cron-history/cronjob.log
+  182  2024-09-26 07:55:02 ls
+  183  2024-09-26 07:55:02 touch ~/training-biz-bhumika/cronjob.log
+  184  2024-09-26 07:55:02 tail -f ~/training-biz-bhumika/cronjob.log
+  185  2024-09-26 07:55:02 vi cron_script.sh 
+  186  2024-09-26 07:55:02 tail -f ~/training-biz-bhumika/cronjob.log
+  187  2024-09-26 07:55:02 crontab -e
+  188  2024-09-26 07:55:02 tail -f ~/training-biz-bhumika/cronjob.log
+  189  2024-09-26 07:55:02 cd training-biz-bhumika
+  190  2024-09-26 07:55:02 cat cronjob.log 
+  191  2024-09-26 07:55:02 cd ..
+  192  2024-09-26 07:55:02 cat cron_script.sh
+  193  2024-09-26 07:55:02 cd training-biz-bhumika
+  194  2024-09-26 07:55:02 ls
+  195  2024-09-26 07:55:02 cat cronjob.log 
+  196  2024-09-26 07:55:02 cd ..
+  197  2024-09-26 07:55:02 ssh -T git@github.com
+  198  2024-09-26 07:55:02 ssh-keygen -t ed25519 -C "your_email@example.com"
+  199  2024-09-26 07:55:02 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  200  2024-09-26 07:55:02 eval "$(ssh-agent -s)"
+  201  2024-09-26 07:55:02 ~/.ssh/id_rsa if you used RSA
+  202  2024-09-26 07:55:02  ~/.ssh/id_rsa
+  203  2024-09-26 07:55:02 ls -l ~/.ssh
+  204  2024-09-26 07:55:02 ls
+  205  2024-09-26 07:55:02 cd training-biz-bhumika/
+  206  2024-09-26 07:55:02 ls
+  207  2024-09-26 07:55:02 cat co
+  208  2024-09-26 07:55:02 cat cronjob.log 
+  209  2024-09-26 07:55:02 ls -l ~/.ssh
+  210  2024-09-26 07:55:02 cat ~/.ssh/id_rsa.pub
+  211  2024-09-26 07:55:02 cd ..
+  212  2024-09-26 07:55:02 ssh -T git@github.com
+  213  2024-09-26 07:55:02 git remote -v
+  214  2024-09-26 07:55:02 ls
+  215  2024-09-26 07:55:02 ls -a
+  216  2024-09-26 07:55:02 cd ~/training-biz-bhumika
+  217  2024-09-26 07:55:02 git remote -v
+  218  2024-09-26 07:55:02 bash ~/cron_script.sh
+  219  2024-09-26 07:55:02 git config --global user.name "Bhumika Suresh"
+  220  2024-09-26 07:55:02 git config --global user.email "bhumikasuresh003@gmail.com"
+  221  2024-09-26 07:55:02 git remote -v
+  222  2024-09-26 07:55:02 git remote set-url origin git@github.com:BhumikaSuresh/training-biz-bhumika.git
+  223  2024-09-26 07:55:02 bash ~/cron_script.sh
+  224  2024-09-26 07:55:02 ls
+  225  2024-09-26 07:55:02 cat cronjob.log 
+  226  2024-09-26 07:55:02 cd ..
+  227  2024-09-26 07:55:02 ls
+  228  2024-09-26 07:55:02 cd cron_script.sh 
+  229  2024-09-26 07:55:02 cat cron_script.sh 
+  230  2024-09-26 07:55:02 crontab -e
+  231  2024-09-26 07:55:02 cd training-biz-bhumika/
+  232  2024-09-26 07:55:02 cat cronjob.log 
+  233  2024-09-26 07:55:02 vi cronjob.log 
+  234  2024-09-26 07:55:02 crontab -e
+  235  2024-09-26 07:55:02 ls
+  236  2024-09-26 07:55:02 crontab -e
+  237  2024-09-26 07:55:02 ls
+  238  2024-09-26 07:55:02 cat cronjob.log 
+  239  2024-09-26 07:55:02 exit
+  240  2024-09-26 07:55:02 cd training-biz-bhumika/
+  241  2024-09-26 07:55:02 ls
+  242  2024-09-26 07:55:02 cat cronjob.log 
+  243  2024-09-26 07:55:02 rm cronjob.log 
+  244  2024-09-26 07:55:02 la
+  245  2024-09-26 07:55:02 ls
+  246  2024-09-26 07:55:02 crontab -e
+  247  2024-09-26 07:55:02 ls
+  248  2024-09-26 07:55:02 bash ~/cron_script.sh
+  249  2024-09-26 07:55:02 ls
+  250  2024-09-26 07:55:02 cat cronjob.log 
+  251  2024-09-26 07:55:02 ls
+  252  2024-09-26 07:55:02 cat cronjob.log 
+  253  2024-09-26 07:55:02 git pull origin main
+  254  2024-09-26 07:55:02  git config pull.rebase false
+  255  2024-09-26 07:55:02 ls
+  256  2024-09-26 07:55:02 cat cronjob.log 
+  257  2024-09-26 07:55:02 git pull --no-rebase origin main
+  258  2024-09-26 07:55:02 git push origin main
+  259  2024-09-26 07:55:02  git pull origin main
+  260  2024-09-26 07:55:02 cd ..
+  261  2024-09-26 07:55:02 ls
+  262  2024-09-26 07:55:02 rmdir cron_script.sh 
+  263  2024-09-26 07:55:02 rm cron_script.sh 
+  264  2024-09-26 07:55:02 rm training-biz-bhumika/
+  265  2024-09-26 07:55:02 rmdir training-biz-bhumika/
+  266  2024-09-26 07:55:02 rm -m training-biz-bhumika/
+  267  2024-09-26 07:55:02 rm -r training-biz-bhumika/
+  268  2024-09-26 07:55:02 y
+  269  2024-09-26 07:55:02 ls -a
+  270  2024-09-26 07:55:02 touch cron_shell_script.sh
+  271  2024-09-26 07:55:02 vi cr
+  272  2024-09-26 07:55:02 ls
+  273  2024-09-26 07:55:02 rm cr
+  274  2024-09-26 07:55:02 vi cron_shell_script.sh 
+  275  2024-09-26 07:55:02 chmod +x ~/cron_script.sh
+  276  2024-09-26 07:55:02 chmod +x ~/cron_shell_script.sh
+  277  2024-09-26 07:55:02 git clone https://github.com/BhumikaSuresh/training-biz-bhumika.git
+  278  2024-09-26 07:55:02 crontab -e
+  279  2024-09-26 07:55:02 vi cron_shell_script.sh 
+  280  2024-09-26 07:55:02 tail -f ~/training-biz-bhumika/cronjob.log
+  281  2024-09-26 07:55:02 ls
+  282  2024-09-26 07:55:02 cd training-biz-bhumika/
+  283  2024-09-26 07:55:02 ls
+  284  2024-09-26 07:55:02 touch cronjob.log
+  285  2024-09-26 07:55:02 ls
+  286  2024-09-26 07:55:02 tail -f ~/training-biz-bhumika/cronjob.log
+  287  2024-09-26 07:55:02 ls
+  288  2024-09-26 07:55:02 cat cronjob.log 
+  289  2024-09-26 07:55:02 grep CRON /var/log/syslog
+  290  2024-09-26 07:55:02 ls
+  291  2024-09-26 07:55:02 cat cronjob.log 
+  292  2024-09-26 07:55:02 vi cronjob.log 
+  293  2024-09-26 07:55:02 bash ~/cron_shell_script.sh
+  294  2024-09-26 07:55:02 git remote -v
+  295  2024-09-26 07:55:02 git remote set-url origin git@github.com:BhumikaSuresh/training-biz-bhumika.git
+  296  2024-09-26 07:55:02 git remote -v
+  297  2024-09-26 07:55:02 bash ~/cron_shell_script.sh
+  298  2024-09-26 07:55:02 ls
+  299  2024-09-26 07:55:02 cat cronjob.log 
+  300  2024-09-26 07:55:02 ls
+  301  2024-09-26 07:55:02 cat cronjob.log 
+  302  2024-09-26 07:55:02 crontab -e
+  303  2024-09-26 07:55:02 cat cronjob.log 
+  304  2024-09-26 07:55:02 ls
+  305  2024-09-26 07:55:02 cd ..
+  306  2024-09-26 07:55:02 ls
+  307  2024-09-26 07:55:02 cat cron_shell_script.sh 
+  308  2024-09-26 07:55:02 cd training-biz-bhumika/
+  309  2024-09-26 07:55:02 cat cronjob.log 
+  310  2024-09-26 07:55:02 cd ..
+  311  2024-09-26 07:55:02 ls
+  312  2024-09-26 07:55:02 crontab -e
+  313  2024-09-26 07:55:02 cd training-biz-bhumika/
+  314  2024-09-26 07:55:02 ls
+  315  2024-09-26 07:55:02 cat cronjob.log 
+  316  2024-09-26 07:55:02 cd ..
+  317  2024-09-26 07:55:02 vi cron_shell_script.sh 
+  318  2024-09-26 07:55:02 chmod +x ~/cron_shell_script.sh
+  319  2024-09-26 07:55:02 ls 
+  320  2024-09-26 07:55:02 cd training-biz-bhumika/
+  321  2024-09-26 07:55:02 ls
+  322  2024-09-26 07:55:02 cat cronjob.log 
+  323  2024-09-26 07:55:02 bash ~/cron_shell_script.sh
+  324  2024-09-26 07:55:02 cd ..
+  325  2024-09-26 07:55:02 bash ~/cron_shell_script.sh
+  326  2024-09-26 07:55:02 ls
+  327  2024-09-26 07:55:02 cd training-biz-bhumika/
+  328  2024-09-26 07:55:02 ls
+  329  2024-09-26 07:55:02 cat cronjob.log 
+  330  2024-09-26 05:54:51 ls
+  331  2024-09-26 05:55:03 rm -r cron_shell_script.sh 
+  332  2024-09-26 05:55:18 rm -r training-biz-bhumika/
+  333  2024-09-26 05:55:30 y
+  334  2024-09-26 05:55:34 yls
+  335  2024-09-26 05:55:36 ls -a
+  336  2024-09-26 05:55:47 cd .gitconfig 
+  337  2024-09-26 05:57:33 git clone https://github.com/BhumikaSuresh/training-biz-bhumika.git
+  338  2024-09-26 05:57:37 ls
+  339  2024-09-26 05:57:41 cd training-biz-bhumika/
+  340  2024-09-26 05:57:46 ls
+  341  2024-09-26 05:58:00 cd ..
+  342  2024-09-26 05:58:10 touch cron_ss.sh
+  343  2024-09-26 05:58:16 ls
+  344  2024-09-26 05:58:21 vi cron_ss.sh 
+  345  2024-09-26 06:00:30 cd training-biz-bhumika/
+  346  2024-09-26 06:00:31 ls
+  347  2024-09-26 06:01:01 cd ..
+  348  2024-09-26 06:01:26 chmod +x ~cron_ss.sh
+  349  2024-09-26 06:01:36 chmod +x ~/cron_ss.sh
+  350  2024-09-26 06:02:16 crontab -e
+  351  2024-09-26 06:02:42 ls
+  352  2024-09-26 06:05:17 crontab -l
+  353  2024-09-26 06:05:25 ls 
+  354  2024-09-26 06:05:28 cd training-biz-bhumika/
+  355  2024-09-26 06:05:30 ls
+  356  2024-09-26 06:05:32 cat cr
+  357  2024-09-26 06:06:04 journalctl
+  358  2024-09-26 06:06:46 sudo journalctl
+  359  2024-09-26 06:07:39 ls
+  360  2024-09-26 06:07:56 groups bhumika
+  361  2024-09-26 06:08:01 cd ..
+  362  2024-09-26 06:08:03 groups bhumika
+  363  2024-09-26 06:08:19 ls
+  364  2024-09-26 06:08:24 cd training-biz-bhumika/
+  365  2024-09-26 06:08:26 ls
+  366  2024-09-26 06:10:03 cd ..
+  367  2024-09-26 06:10:11 /bin/bash ~/cron_ss.sh
+  368  2024-09-26 06:10:51 cd training-biz-bhumika/
+  369  2024-09-26 06:11:06 touch commandslist.txt
+  370  2024-09-26 06:11:08 ls
+  371  2024-09-26 06:11:14 /bin/bash ~/cron_ss.sh
+  372  2024-09-26 06:11:43 ls
+  373  2024-09-26 06:11:48 cat commandslist.txt 
+  374  2024-09-26 06:12:55 rm commandslist.txt 
+  375  2024-09-26 06:12:58 ls
+  376  2024-09-26 06:13:08 export HISTTIMEFORMAT="%F %T "
+  377  2024-09-26 06:13:08 history > ~/commandslist.txt
+  378  2024-09-26 06:13:16 ls -l ~/commandslist.txt
+  379  2024-09-26 06:13:33 ls
+  380  2024-09-26 06:14:29 git status
+  381  2024-09-26 06:14:51 commit
+  382  2024-09-26 06:14:56 git commit
+  383  2024-09-26 06:15:06 git commit -a
+  384  2024-09-26 06:15:22 ls
+  385  2024-09-26 06:15:58 cd ..
+  386  2024-09-26 06:16:11 cd training-biz-bhumika/
+  387  2024-09-26 06:16:13 git status
+  388  2024-09-26 06:16:49 git push 
+  389  2024-09-26 06:17:37 cd ..
+  390  2024-09-26 06:18:00 rm -r training-biz-bhumika/
+  391  2024-09-26 06:18:05 y
+  392  2024-09-26 06:18:30 git clone https://github.com/BhumikaSuresh/training-biz-bhumika.git
+  393  2024-09-26 06:18:47 ls
+  394  2024-09-26 06:19:05 rm commandslist.txt 
+  395  2024-09-26 06:19:07 ls
+  396  2024-09-26 06:19:10 ls -a
+  397  2024-09-26 06:19:27 cat cron_ss.sh 
+  398  2024-09-26 06:19:54 sudo  journalctl
+  399  2024-09-26 06:20:32 cd training-biz-bhumika/
+  400  2024-09-26 06:20:44 ls 
+  401  2024-09-26 06:20:56 /bin/bash ~/cron_ss.sh
+  402  2024-09-26 06:21:51 cd ..
+  403  2024-09-26 06:21:54 ls
+  404  2024-09-26 06:22:07 cat commandslist.txt 
+  405  2024-09-26 06:22:23 rm commandslist.txt 
+  406  2024-09-26 06:22:53 vi cron_ss.sh 
+  407  2024-09-26 06:23:45  /bin/bash ~/cron_ss.sh
+  408  2024-09-26 06:23:55 ls
+  409  2024-09-26 06:23:58 cd training-biz-bhumika/
+  410  2024-09-26 06:24:00 ls
+  411  2024-09-26 06:24:08 cat commandslist.txt 
+  412  2024-09-26 06:24:41 cd ..
+  413  2024-09-26 06:24:42 ls 
+  414  2024-09-26 06:24:45 cat cron_ss.sh 
+  415  2024-09-26 06:24:53 vi cron_ss.sh 
+  416  2024-09-26 06:27:23 ls
+  417  2024-09-26 06:27:56 /bin/bash ~/cron_ss.sh
+  418  2024-09-26 06:28:05 cat ~/export_history.log
+  419  2024-09-26 06:29:15 eval $(ssh-agent -s)
+  420  2024-09-26 06:29:15 ssh-add ~/.ssh/id_rsa 
+  421  2024-09-26 06:30:17 cd training-biz-bhumika/
+  422  2024-09-26 06:30:18 ls
+  423  2024-09-26 06:30:37 git add commandslist.txt
+  424  2024-09-26 06:31:07 git commit -m "COMMITED"
+  425  2024-09-26 06:31:26 git push origin main
+  426  2024-09-26 06:32:19 git remote -v
+  427  2024-09-26 06:32:42 git remote set-url origin git@github.com:bhumika/training-biz-bhumika.git
+  428  2024-09-26 06:33:01 git remote -v
+  429  2024-09-26 06:33:19 ssh -T git@github.com
+  430  2024-09-26 06:33:44 git add commandslist.txt
+  431  2024-09-26 06:33:54 git commit -m "COMMITED"
+  432  2024-09-26 06:34:45 git push origin main
+  433  2024-09-26 06:36:58 ssh -T git@github.com
+  434  2024-09-26 06:37:20 git add commandslist.txt
+  435  2024-09-26 06:37:24 git commit -m "COMMITED"
+  436  2024-09-26 06:37:33 git push origin main
+  437  2024-09-26 06:38:27 /bin/bash ~/cron_ss.sh
+  438  2024-09-26 06:38:36 cd ..
+  439  2024-09-26 06:38:38 /bin/bash ~/cron_ss.sh
+  440  2024-09-26 06:38:41 ls
+  441  2024-09-26 06:38:53 cat export_history.log 
+  442  2024-09-26 06:39:08 cd training-biz-bhumika/
+  443  2024-09-26 06:39:12 cat commandslist.txt 
+  444  2024-09-26 06:39:24 echo hi
+  445  2024-09-26 06:39:41 cat commandslist.txt
+  446  2024-09-26 06:40:14 crontab -e
+  447  2024-09-26 06:40:36 cd ..
+  448  2024-09-26 06:40:41 vi cron_ss.sh 
+  449  2024-09-26 06:42:10 /bin/bash ~/cron_ss.sh
+  450  2024-09-26 06:42:18 cd training-biz-bhumika/
+  451  2024-09-26 06:42:19 ls
+  452  2024-09-26 06:42:23 cat commandslist.txt 
+  453  2024-09-26 06:44:28 cd ..
+  454  2024-09-26 06:44:32 cat cron_ss.sh 
+  455  2024-09-26 06:45:30 vi cron_ss.sh 
+  456  2024-09-26 06:47:35 /bin/bash ~/cron_ss.sh
+  457  2024-09-26 06:48:09 cd training-biz-bhumika/
+  458  2024-09-26 06:48:13 cat commandslist.txt 
+  459  2024-09-26 06:48:31 history
+  460  2024-09-26 06:50:17 cd ..
+  461  2024-09-26 06:50:22 vi cron_ss.sh 
+  462  2024-09-26 06:52:29 /bin/bash ~/cron_ss.sh
+  463  2024-09-26 06:53:00 cd training-biz-bhumika/
+  464  2024-09-26 06:53:04 cat commandslist.txt 
+  465  2024-09-26 06:56:03 cd ..
+  466  2024-09-26 06:56:06 vi cron_ss.sh 
+  467  2024-09-26 06:57:02 /bin/bash ~/cron_ss.sh
+  468  2024-09-26 06:57:29 vi cron_ss.sh 
+  469  2024-09-26 06:58:29 crontab -e
+  470  2024-09-26 07:06:10 echo hi bhumika
+  471  2024-09-26 07:06:59 history
+  472  2024-09-26 07:18:24 cron -e
+  473  2024-09-26 07:18:28 crontab -e
+  474  2024-09-26 07:36:34 history
